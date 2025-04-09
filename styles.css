@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+}
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+}
+a {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+a:hover {
+    text-decoration: underline;
+}
